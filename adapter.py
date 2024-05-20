@@ -1,25 +1,20 @@
 class ClassA():
     "A Sample Class the implements IA"
-
     def method_a(self):
         print("method A")
-
-
 class ClassB():
     "A Sample Class the implements IB"
-
     def method_b(self):
         print("method B")
-
 class ClassBAdapter():
     "ClassB does not have a method_a, so we can create an adapter"
 
     def __init__(self):
-        self.class_b = ClassB()
+        self.class_ad = ClassB()
 
     def method_a(self):
         "calls the class b method_b instead"
-        self.class_b.method_b()
+        self.class_ad.method_b()
         
 
 

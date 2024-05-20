@@ -1,28 +1,17 @@
 
 class ConcreteProductA():
     "A Class that implements the IProduct interface"
-
     def __init__(self):
         self.name = "ConcreteProductA"
-
-
-
 class ConcreteProductB():
     "A Class that implements the IProduct interface"
-
     def __init__(self):
         self.name = "ConcreteProductB"
-
-
-
 class ConcreteProductC():
     "A Class that implements the IProduct interface"
 
     def __init__(self):
         self.name = "ConcreteProductC"
-
-
-
 class Creator:
     "The Factory Class"
 
